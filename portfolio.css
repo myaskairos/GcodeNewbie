@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(214, 41, 84);
+    margin: 0;
+    padding: 0;
+}
+.navbar  {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 15%;
+    background-color: rgb(112, 62, 212);
+    font-style: oblique;
+    border: 1vw solid rgb(166, 55, 188);
+    border-radius:  55%;  
+    text-align: center;
+    justify-content: center;
+    line-height: 3.5vw;
+    text-indent: -50%;
+    float: right;
+    clear: both;
+}
+.navbar:hover{
+    background-color:rgb(166, 55, 188) ;
+    border: 1vw solid rgb(112, 62, 212);
+}
+
+.navbar ul a{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.navbar ul li {
+    position: relative;
+    text-align: center;
+    list-style: none;
+    
+}
+
+
+h1{
+    color: rgb(255, 177, 177);
+}
+#selfie{
+    max-width: 20vw; 
+    max-height: 20vw;
+    padding-left: 50%;
+    padding-right: 50%;
+    border-radius: 50%;
+
+}
+.about-me-bio{
+    position: relative;
+    color: rgb(246, 153, 254);
+    font-family: monaco;
+    word-spacing: .25vw;
+    text-align: center;
+    padding: 5%;
+    line-height: 200%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid with minimum 200px width */
+    gap: 20px; /* Moderate spacing between grid items */
+  }
+  
+  .grid-item {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .grid-item a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .grid-item h3 {
+    margin: 10px 0;
+  }
+  
+.contact-form {
+    background-color: rgb(185, 3, 85);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+    transition: background-color 0.5s;
+    width: 45vw;
+    margin: 0 auto;
+}
+
+.contact-form:hover {
+    background-color: rgb(189, 92, 170);
+    color: black;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(230, 28, 153);
+}
+
+input[type="submit"] {
+    background-color: rgb(222, 59, 130);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}
